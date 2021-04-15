@@ -42,7 +42,7 @@ class Body extends StatelessWidget {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      print("user logged in : id = 4");
+                      print("user logged in.");
                       return TripUpScreen();
                     },
                   ),
