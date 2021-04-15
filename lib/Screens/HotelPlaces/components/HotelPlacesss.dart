@@ -2,6 +2,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_app/Screens/TripUp/components/travelcard.dart';
 
 Widget travelCard(
     String imgUrl, String hotelName, String location, int rating) {

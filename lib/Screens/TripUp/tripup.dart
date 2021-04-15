@@ -79,7 +79,7 @@ class _TravelAppState extends State<Body> {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return Hotel_Places_screen(city);
+                      return Hotel_Places_screen(city: city);
                     },
                   ),
                 );
