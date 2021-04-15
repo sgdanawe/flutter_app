@@ -6,7 +6,8 @@ import 'package:flutter_app/components/already_have_an_account_acheck.dart';
 // import 'package:flutter_app/components/rounded_button.dart';
 import 'package:flutter_app/components/rounded_input_field.dart';
 import 'package:flutter_app/components/rounded_password_field.dart';
-import 'package:flutter_svg/svg.dart';
+// import 'package:flutter_svg/svg.dart';
+import 'package:flutter_app/Screens/TripUp/tripup.dart';
 
 class Body extends StatelessWidget {
   const Body({
@@ -36,7 +37,17 @@ class Body extends StatelessWidget {
             ),
             RoundedButton(
               text: "LOGIN",
-              press: () {},
+              press: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      print("user logged in");
+                      return TripUpScreen();
+                    },
+                  ),
+                );
+              },
             ),
             SizedBox(height: size.height * 0.03),
             AlreadyHaveAnAccountCheck(
