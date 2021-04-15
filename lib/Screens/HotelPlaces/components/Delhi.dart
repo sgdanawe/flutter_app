@@ -3,7 +3,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/Screens/TripUp/components/travelcard.dart';
 
-Widget Jabalpur(){
+Widget Delhi(){
 
   List<String> urls = [
     "https://resofrance.eu/wp-content/uploads/2018/09/hotel-luxe-mandarin-oriental-paris.jpg",

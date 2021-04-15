@@ -3,6 +3,7 @@ import 'package:flutter_app/Screens/TripUp/components/travelcard.dart';
 import 'package:flutter_app/components/rounded_input_field.dart';
 import 'package:flutter_app/Components/rounded_button.dart';
 import 'package:flutter_app/Screens/HotelPlaces/components/Jabalpur.dart';
+import 'package:flutter_app/Screens/HotelPlaces/components/Delhi.dart';
 
 // class ServerIpText extends StatefulWidget {
 //   final String serverIP;
@@ -57,14 +58,6 @@ class _TravelAppState extends State<Hotel_Places_screen> {
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-
-            SizedBox(
-              height: 20.0,
-            ),
-
-            SizedBox(
-              height: 20.0,
-            ),
             //Now let's add some elevation to our text field
             //to do this we need to wrap it in a Material widget
             SizedBox(height: 30.0),
@@ -92,8 +85,8 @@ class _TravelAppState extends State<Hotel_Places_screen> {
                       height: 20.0,
                     ),
                     Container(
-                      height: 300.0,
-                      child : (widget.city == "Jabalpur") ? Jabalpur() : (widget.city == "Delhi") ? Jabalpur() : Jabalpur(),
+                      height: 400.0,
+                      child : (widget.city == "Jabalpur") ? Jabalpur() : (widget.city == "Delhi") ? Delhi() : Jabalpur(),
                     ),
                   ],
                 ),
